@@ -1,8 +1,9 @@
 ## Put comments here that give an overall description of what your
 ## functions do
-
+# makeCacheMatrix Create a special "matrix" object that is able to cache its inverse.
 ## Write a short comment describing this function
-
+# The function returns A list containing four functions to set and get the value of the
+#  matrix and to set and get the inverse of the matrix
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
   set <- function(y) {
