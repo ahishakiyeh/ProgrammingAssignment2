@@ -30,8 +30,3 @@ cacheSolve <- function(x, ...) {
   x$setinverse(inv)
   inv
 }
-## verification by calculate the inverse of a known matrix
-x = rbind(c(1, 3), c(2, 4))
-m = makeCacheMatrix(x)
-m$get()
-cacheSolve(m)
